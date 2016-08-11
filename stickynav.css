@@ -1,0 +1,32 @@
+body{
+	margin: 4%;
+}
+ul{
+	margin: 0;
+	position: fixed; top: 0; left: 0;
+	background-color: dodgerblue;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3%;
+	
+}
+li{
+
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	width: 15%;
+	border-right: 1px solid white;
+	font-size: 20px;
+}
+li:first-of-type{
+	margin-left: 10%;
+	border-left: 1px solid white;
+}
+li:hover{
+	background-color: gray;
+	color: dodgerblue;
+	cursor: pointer;
+}
